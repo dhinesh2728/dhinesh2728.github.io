@@ -56,7 +56,7 @@ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS T
 8.Result Main.js
    System Notice: Historical data and logs were detected for the specified link across the past 3 months, with more than one log entry identified in each month.
 
-No further actions can be performed on the retrieved results due to the current authorization level on the associated metadata.
+   No further actions can be performed on the retrieved results due to the current authorization level on the associated metadata.
 
 9.. Miscellaneous
 
