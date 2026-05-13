@@ -384,6 +384,29 @@
 					});
 
 			}
+		import sqlite3
+
+	conn = sqlite3.connect("calls.db")
+	cur = conn.cursor()
+
+	number = "9952525257"
+	linked = "9360465643"
+
+	query = """
+	SELECT *
+	FROM call_logs
+	WHERE caller = ?
+   	OR receiver = ?
+   	OR caller = ?
+   	OR receiver = ?
+"""
+
+	cur.execute(query, (number, number, linked, linked))
+
+	for row in cur.fetchall():
+    print(row)
+
+	conn.close()
 
 		// Initialize.
 
